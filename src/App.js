@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import AccessPage from "./Pages/AccessPage";
 
 function App() {
-  return <div> App creation </div>;
+  return (
+    <div>
+      <BrowserRouter>
+        <Route path="/" exact component={AccessPage} />
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;

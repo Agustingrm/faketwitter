@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap");
+
+#contentDiv {
+  display: flex;
+}
+
+#leftDiv {
+  width: 52vw;
+  height: 100vh;
+  background-image: url("../AccessBackground.png");
+  background-size: "cover";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftDiv img {
+  width: 50%;
+  height: 50%;
+}
+
+#rightDiv {
+  width: 48vw;
+  height: 100vh;
+  float: right;
+  font-family: "Open Sans", sans-serif;
+  padding: 3vw 5vh;
+  box-sizing: border-box;
+  color: #0f1419;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+button {
+  width: 380px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 23px;
+  margin-right: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#signInButton {
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#signInButton:hover {
+  background-color: #1a90da;
+}
+
+#logInButton {
+  border: solid 1px #1da1f2;
+  color: #1da1f2;
+  background-color: white;
+}
+
+#logInButton:hover {
+  background-color: rgb(229, 240, 247);
+}
+
+@media all and (max-width: 600px) {
+  #contentDiv {
+    flex-direction: column;
+  }
+  #leftDiv {
+    width: 100vw;
+    height: 52vh;
+  }
+
+  #rightDiv {
+    width: 100vw;
+    height: 48vh;
+  }
+
+  button {
+    width: 200px;
+    height: 46px;
+    margin-right: 10px;
+  }
+}
