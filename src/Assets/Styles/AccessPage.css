@@ -29,15 +29,15 @@
   color: #0f1419;
 }
 
-h1 {
+#rightDiv h1 {
   font-size: 5vw;
 }
 
-h2 {
+#rightDiv h2 {
   font-size: 2.5vw;
 }
 
-button {
+#rightDiv button {
   width: 380px;
   height: 46px;
   font-size: 16px;
@@ -46,7 +46,7 @@ button {
   margin-right: 10px;
 }
 
-button:hover {
+#rightDiv button:hover {
   cursor: pointer;
 }
 
@@ -85,7 +85,7 @@ button:hover {
     height: 48vh;
   }
 
-  button {
+  #rightDiv button {
     width: 200px;
     height: 46px;
     margin-right: 10px;

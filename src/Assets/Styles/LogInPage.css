@@ -1,0 +1,13 @@
+#logInContainer {
+  width: 25vw;
+}
+
+#logInContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+#logInContainer button {
+  background-color: #1DA1F2; 
+  border: none;
+}
