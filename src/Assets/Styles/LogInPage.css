@@ -42,9 +42,15 @@
   font-weight: 800;
 }
 
-#logInContainer a {
+#logInContainer p {
 margin: auto;
 color: #1da1f2;
 font-weight: 400;
 }
 
+#logInContainer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  }
+
+  

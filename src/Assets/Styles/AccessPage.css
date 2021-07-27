@@ -31,10 +31,12 @@
 
 #rightDiv h1 {
   font-size: 5vw;
+  margin: 7vh 0;
 }
 
 #rightDiv h2 {
   font-size: 2.5vw;
+  margin: 6vh 0;
 }
 
 #rightDiv button {
@@ -69,6 +71,14 @@
 
 #logInButton:hover {
   background-color: rgb(229, 240, 247);
+}
+
+#rightDiv a:hover {
+  text-decoration: none;
+}
+
+#rightDiv a:visited {
+  color: #1da1f2;
 }
 
 @media all and (max-width: 600px) {

@@ -3,9 +3,10 @@
 #background {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(20, 20, 20, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 2;
   padding: 20px;
+  position: absolute;
 }
 
 #registerContainer {
@@ -18,17 +19,33 @@
   border-radius: 15px;
 }
 
-#registerContainer img {
+#registerContainer #imgContainer {
+  display: flex;
+  padding-left: 20px;
+}
+
+#registerContainer #logo {
   width: 30px;
   height: 30px;
   margin: 0 auto 10px auto;
 }
 
+#registerContainer #cross {
+  width: 20px;
+  height: 20px;
+}
+
+#registerContainer #cross:hover {
+  cursor: pointer;
+}
+
+
+
 #registerContainer form {
   width: 600px;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 50vh;
   overflow-y: scroll;
 }
 
@@ -55,7 +72,7 @@
   #background {
     padding: 20px 0;
   }
-  
+
   #registerContainer {
     width: 350px;
   }

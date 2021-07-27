@@ -1,0 +1,11 @@
+#HomeLeftMenuContainer {
+  background-color: gray;
+}
+
+#HomeLeftMenuContainer .MenuItem {
+  display: flex;
+}
+
+#HomeLeftMenuContainer .MenuItem img {
+  width: 30px;
+}
