@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 20, 20, 0.2);
+  z-index: 2;
+  padding: 20px;
+}
+
+#registerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#registerContainer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 10px auto;
+}
+
+#registerContainer form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+#registerContainer input {
+  width: 550px;
+  padding: 18px 10px;
+  margin-bottom: 20px;
+  border: solid 1px rgb(212, 212, 212);
+  border-radius: 5px;
+  outline-color: #1da1f2;
+}
+#registerContainer button {
+  background-color: #1da1f2;
+  border: none;
+  margin: 10px 0 0 0 !important;
+  padding: 15px 0;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 800;
+}
+
+@media all and (max-width: 650px) {
+  #background {
+    padding: 20px 0;
+  }
+  
+  #registerContainer {
+    width: 350px;
+  }
+
+  #registerContainer form {
+    width: 330px;
+  }
+  #registerContainer input {
+    width: 310px;
+  }
+}

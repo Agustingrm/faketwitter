@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../Assets/Styles/LogInPage.css";
+import twitterLogo from "../Assets/twitterLogo.svg";
 
 function LogInPage() {
   const [form, setForm] = useState({ email: "", password: "" });
@@ -17,13 +18,15 @@ function LogInPage() {
 
   return (
     <div id="logInContainer">
+      <img src={twitterLogo} alt="Twitter Logo" />
+      <h1>Log in to Twitter</h1>
       <form>
         <input label="email" name="email" type="email" placeholder="Enter email" value={form.email} onChange={handleChange} />
         <input label="password" name="password" type="password" placeholder="Password" value={form.password} onChange={handleChange} />
-        <button variant="secondary" type="submit" onClick={handleSubmit}>
+        <button type="submit" onClick={handleSubmit}>
           Log in
         </button>
-        <p>Sign up for Twitter</p>
+        <Link to="/">Sign up for twitter</Link>
       </form>
     </div>
   );

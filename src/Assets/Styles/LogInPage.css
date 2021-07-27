@@ -1,13 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
 #logInContainer {
-  width: 25vw;
+  width: 325px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  margin: auto;
+}
+
+#logInContainer img {
+  margin-top: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+#logInContainer h1 {
+  font-weight: 600;
+  margin: 30px 0;
 }
 
 #logInContainer form {
   display: flex;
   flex-direction: column;
+  height: 58px;
+}
+
+#logInContainer input {
+  padding: 18px 10px;
+  margin-bottom: 20px;
+  border: solid 1px rgb(212, 212, 212);
+  border-radius: 5px;
+  outline-color: #1DA1F2;
 }
 
 #logInContainer button {
-  background-color: #1DA1F2; 
+  background-color: #1da1f2;
   border: none;
+  padding: 15px 0;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color:  white;
+  font-weight: 800;
 }
+
+#logInContainer a {
+margin: auto;
+color: #1da1f2;
+font-weight: 400;
+}
+
