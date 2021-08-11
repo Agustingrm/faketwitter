@@ -1,11 +1,32 @@
 #HomeLeftMenuContainer {
-  background-color: gray;
+  background-color: white;
+  margin: 20px 0 0 50px;
+}
+
+#menuLogo {
+  margin: 0 0 10px 15px;
+  width: 28px;
 }
 
 #HomeLeftMenuContainer .MenuItem {
   display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  width: auto;
+  height: 50px;
+  padding: 12px;
+}
+
+#HomeLeftMenuContainer .MenuItem p {
+  margin: 0px 0 0 15px;
 }
 
 #HomeLeftMenuContainer .MenuItem img {
   width: 30px;
+}
+
+#HomeLeftMenuContainer .MenuItem:hover {
+  border-radius: 25px;
+  background-color: rgb(29,161,242,0.5);
 }
